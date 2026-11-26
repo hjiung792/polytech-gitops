@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: petclinic:initial            # CI가 ECR 이미지로 자동 변경
+          image: 897722691159.dkr.ecr.ap-northeast-2.amazonaws.com/user73-webapp:19a250d411c0613b88fb2fb98925dabe53d75276
           ports:
             - containerPort: 8080
           envFrom:
